@@ -1,0 +1,21 @@
+{
+  "stickmanSize": "normal",
+  "stickmanPos": {
+    "x": 625.0
+  },
+  "floorHeight": 320.0,
+  "levelWidth": 640.0,
+  "levelHeight": 400.0,
+  "entities": [
+    {
+      "path": "slimeRa.png",
+      "x": 625.0,
+      "y": 290.1,
+      "height": 15.9,
+      "width": 21.2,
+      "layer": "FOREGROUND",
+      "is_hostile": true,
+      "movement": "redEnemy"
+    }
+  ]
+}

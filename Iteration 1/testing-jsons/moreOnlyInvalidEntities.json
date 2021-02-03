@@ -1,0 +1,71 @@
+{
+  "stickmanSize": "normal",
+  "stickmanPos": {
+    "x": 20.0
+  },
+  "floorHeight": 320.0,
+  "levelWidth": 700.0,
+  "levelHeight": 400.0,
+  "entities": [
+    {
+      "path": "cloud_2.png",
+      "x": 10000.0,
+      "y": "oogabooga",
+      "height": 50.0,
+      "width": 75.0,
+      "layer": "BACKGROUND",
+      "is_hostile": false,
+      "movement": "cloud"
+    },
+    {
+      "path": "tree.png",
+      "x": -123.0,
+      "y": 221.5,
+      "height": 98.5,
+      "width": 64.0,
+      "layer": "BACKGROUND",
+      "is_hostile": false,
+      "movement": "none"
+    },
+    {
+      "path": "slimeRa.png",
+      "x": 282934885.0,
+      "y": -3.1,
+      "height": 15.9,
+      "width": 21.2,
+      "layer": "FOREGROUND",
+      "is_hostile": true,
+      "movement": "redEnemy"
+    },
+    {
+      "path": "cloud_2.png",
+      "x": 100.0,
+      "y": 100.0,
+      "height": 302039.0,
+      "width": "oogabooga",
+      "layer": "BACKGROUND",
+      "is_hostile": false,
+      "movement": "cloud"
+    },
+    {
+      "path": "tree.png",
+      "x": 123.0,
+      "y": 221.5,
+      "height": -98.5,
+      "width": 64.0,
+      "layer": "BACKGROUND",
+      "is_hostile": false,
+      "movement": "none"
+    },
+    {
+      "path": "slimeRa.png",
+      "x": 28.0,
+      "y": 3.1,
+      "height": -12312315.9,
+      "width": -0.2,
+      "layer": "FOREGROUND",
+      "is_hostile": true,
+      "movement": "redEnemy"
+    }
+  ]
+}

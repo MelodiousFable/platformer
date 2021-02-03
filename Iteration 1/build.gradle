@@ -1,0 +1,60 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath 'org.junit.platform:junit-platform-gradle-plugin:1.1.0'
+    }
+}
+
+plugins {
+    id 'java'
+    id 'org.openjfx.javafxplugin' version '0.0.8'
+    id 'application'
+    id 'jacoco'
+}
+
+javafx {
+    version = "12.0.2"
+    modules = [ 'javafx.controls', 'javafx.media' ]
+}
+
+jacoco {
+    toolVersion = "0.8.4"
+}
+
+jacocoTestReport {
+    reports {
+        xml.enabled false
+        csv.enabled false
+        html.enabled true
+    }
+}
+
+sourceCompatibility = '1.11'
+targetCompatibility = '1.11'
+
+repositories {
+    jcenter()
+    mavenCentral()
+}
+
+test {
+    useJUnitPlatform()
+    test.finalizedBy jacocoTestReport
+}
+
+dependencies {
+    testImplementation 'junit:junit:4.12'
+    implementation 'com.googlecode.json-simple:json-simple:1.1.1'
+
+    testCompile 'org.junit.jupiter:junit-jupiter-api:5.1.0'
+    testCompile group: 'de.saxsys', name: 'jfx-testrunner', version: '1.1'
+    testRuntime 'org.junit.jupiter:junit-jupiter-engine:5.1.0',
+                'org.junit.vintage:junit-vintage-engine:5.1.0',
+                'org.junit.platform:junit-platform-launcher:1.1.0',
+                'org.junit.platform:junit-platform-runner:1.1.0'
+}
+
+mainClassName = 'stickman.App'

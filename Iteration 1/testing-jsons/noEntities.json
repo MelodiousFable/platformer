@@ -1,0 +1,10 @@
+{
+  "stickmanSize": "normal",
+  "stickmanPos": {
+    "x": 20.0
+  },
+  "floorHeight": 320.0,
+  "levelWidth": 700.0,
+  "levelHeight": 400.0,
+  "entities": []
+}

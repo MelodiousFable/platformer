@@ -1,0 +1,41 @@
+{
+  "stickmanSize": "normal",
+  "stickmanPos": {
+    "x": -20000.0
+  },
+  "floorHeight": 320.0,
+  "levelWidth": 700.0,
+  "levelHeight": 400.0,
+  "entities": [
+    {
+      "path": "cloud_2.png",
+      "x": 100.0,
+      "y": 100.0,
+      "height": 50.0,
+      "width": 75.0,
+      "layer": "BACKGROUND",
+      "is_hostile": false,
+      "movement": "cloud"
+    },
+    {
+      "path": "tree.png",
+      "x": 600.0,
+      "y": 221.5,
+      "height": 98.5,
+      "width": 64.0,
+      "layer": "BACKGROUND",
+      "is_hostile": false,
+      "movement": "none"
+    },
+    {
+      "path": "slimeRa.png",
+      "x": 250.0,
+      "y": 304.1,
+      "height": 15.9,
+      "width": 21.2,
+      "layer": "FOREGROUND",
+      "is_hostile": true,
+      "movement": "redEnemy"
+    }
+  ]
+}
